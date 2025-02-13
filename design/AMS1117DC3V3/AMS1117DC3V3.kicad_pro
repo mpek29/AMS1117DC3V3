@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8128,
-          "height": 1.1628,
-          "width": 1.1628
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -431,7 +431,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "MicroUSB2DIP.kicad_pro",
+    "filename": "AMS1117DC3V3.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -470,7 +470,7 @@
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
-      "svg": "../../../../../../Desktop/",
+      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -576,7 +576,7 @@
   },
   "sheets": [
     [
-      "87f3ee06-88b5-44b2-90df-0950ba00d96b",
+      "4c3b105e-46d9-4f53-a989-3f2215a086af",
       "Root"
     ]
   ],

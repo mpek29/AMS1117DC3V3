@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "footprints")(type "KiCad")(uri "C:/Users/Flori/Documents/Project/Tech/Electronics/AMS1117DC3V3/design/lib/footprints")(options "")(descr ""))
+)
