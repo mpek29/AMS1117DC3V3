@@ -1,29 +1,33 @@
 # AMS1117DC3V3
 
-Ce dépôt contient le projet de rétro-ingénierie de la carte "3.3V DC-DC Abaisseur Alimentation Buck Tech AMS1117 800mA Réglable".
+## 🚀 Overview
+An open-source reverse-engineered version of the AMS1117 3.3V DC-DC buck converter module, based on the original component available [here](https://fr.aliexpress.com/item/1005006783027108.html).  
+This project aims to provide insights into DC-DC voltage regulation and offer a customizable alternative for power management in embedded systems.
 
-## Description
+## 🎯 Purpose
+- 🔍 **Reverse engineering**: Understanding the design and functionality of the AMS1117-based voltage regulator.
+- 🛠️ **Skill development**: Enhancing expertise in PCB design and power electronics.
+- 🔄 **Future adaptation**: Leveraging this knowledge to develop custom voltage regulation solutions for embedded applications.
 
-Cette carte est un module abaisseur de tension (buck converter) basé sur le régulateur de tension AMS1117. Elle permet de convertir une tension d'entrée comprise entre 4,75V et 12V en une tension de sortie fixe de 3,3V, avec un courant de sortie maximal de 800mA. :contentReference[oaicite:0]{index=0}
+## 📝 Features Comparison: Original vs. Reverse-Engineered
 
-## Caractéristiques techniques
+| Feature            | Original Module | Reverse-Engineered Version |
+|--------------------|----------------|---------------------------|
+| 🖥️ PCB Design        | Proprietary     | Open-source & customizable |
+| 🔌 Input Voltage    | 4.8V - 15V       | 4.8V - 15V |
+| ⚡ Output Voltage   | 3.3V (fixed)     | 3.3V (fixed) |
+| 📦 Max Current     | 1500 mA            | 1500 mA |
+| 🏷️ Regulator Chip  | AMS1117-3.3      | AMS1117-3.3 |
+| 📐 Mechanical Drawing  | ![Original PCB Drawing](images/original_pcb.png) | ![Reverse-Engineered PCB Drawing](images/reversed_pcb.png) |
+| 📷 Photo             | ![Original Circuit Photo](images/original_3d.png) | ![Reversed 3D View](images/reversed_3d.png) |
 
-- **Tension d'entrée** : 4,75V à 12V
-- **Tension de sortie** : 3,3V
-- **Courant de sortie maximal** : 800mA
-- **Régulateur** : AMS1117-3.3 :contentReference[oaicite:1]{index=1}
+## 🛠️ How to Use
+### 📌 Wiring Guide
+| Pin  | Description |
+|------|-------------|
+| VIN  | Input Voltage (4.8V - 15V) |
+| GND  | Ground |
+| VOUT | Regulated 3.3V Output |
 
-## Contenu du dépôt
-
-- **Schémas** : Schémas électriques détaillés de la carte.
-- **Analyse des composants** : Informations sur les composants utilisés, y compris le régulateur AMS1117.
-- **Documentation** : Notes et observations sur le processus de rétro-ingénierie.
-
-## Références
-
-- [Datasheet de l'AMS1117](https://www.advanced-monolithic.com/pdf/ds1117.pdf)
-- [Page produit sur AliExpress](https://fr.aliexpress.com/item/1005006783027108.html)
-
-## Avertissement
-
-Ce projet est réalisé à des fins éducatives. Veuillez manipuler les composants électroniques avec précaution et respecter les consignes de sécurité appropriées.
+## 📜 License
+This project is open-source. Feel free to use, modify, and contribute! 🚀
