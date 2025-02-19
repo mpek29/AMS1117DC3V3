@@ -20,9 +20,9 @@ This project aims to provide insights into DC-DC voltage regulation and offer a 
 | ⚡ Output Voltage   | 3.3V (fixed)     | 3.3V (fixed) |
 | 📦 Max Current     | 1500 mA            | 1500 mA |
 | 🏷️ Regulator Chip  | AMS1117-3.3      | AMS1117-3.3 |
-| 👐 Mechanical Drawing  | <img src="images/original_pcb.png" width="300" height="300"> | <img src="images/reversed_pcb.png" width="300" height="300"> |
+| 👐 Mechanical Drawing  | <img src="assets/img/original_pcb.png" width="300" height="300"> | <img src="assets/img/reversed_pcb.png" width="300" height="300"> |
 | 📝 Reverse-Engineered Schematic | N/A | <img src="images/reversed_sch.png" width="300" height="300"> |
-| 📷 Photo             | <img src="images/original_3d_high.png" width="300" height="300"> | <img src="images/reversed_3d.png" width="300" height="300"> |
+| 📷 Photo             | <img src="assets/img/original_3d_high.png" width="300" height="300"> | <img src="assets/img/reversed_3d.png" width="300" height="300"> |
 
 ## 🛠️ How to Use
 ### 📌 Wiring Guide
