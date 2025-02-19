@@ -1,6 +1,8 @@
 # AMS1117DC3V3
 
 ## 🚀 Overview
+![Main Preview](assets/img/main.png)
+
 An open-source reverse-engineered version of the AMS1117 3.3V DC-DC buck converter module, based on the original component available [here](https://fr.aliexpress.com/item/1005006783027108.html).  
 This project aims to provide insights into DC-DC voltage regulation and offer a customizable alternative for power management in embedded systems.
 
